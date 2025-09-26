@@ -1,0 +1,50 @@
+html {
+	background-color: lightslategrey;
+}
+
+body {
+	margin: auto;
+	max-width: 600px;
+	height: 600px;
+	background-color: azure;
+	font-family: sans-serif;
+}
+
+h1 {
+	color: purple;
+	text-align: center;
+}
+
+div {
+	border-width: 1px;
+	border-style: solid;
+	border-color: purple;
+	border-radius: 5px;
+}
+
+#billy {
+	color: darkred;
+}
+
+#bob {
+	color: darkgreen;
+}
+
+.two {
+	font-size: larger;
+}
+
+.three {
+	font-size: smaller;
+}
+
+/* Alla länkar i andra divven ska vara genomstrukna */
+#bob a {
+	text-decoration: line-through;
+}
+
+/* Länkarna i det andra stycket (klass two) i andra divven */
+#bob p.two a {
+	text-decoration: underline overline;
+	color: orange;
+}
